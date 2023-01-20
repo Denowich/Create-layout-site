@@ -451,7 +451,19 @@ img {
     .title {
         font-size: 26px;
     }
+    .number {
+        top: 30px;
+    }
+    
     .number-one::after {
+        background-image: url(/icons/icon-1.png);
+        left: 80px;
+    }
+    .number-two::after {
+        background-image: url(/icons/icon-1.png);
+        left: 80px;
+    }
+    .number-three::after {
         background-image: url(/icons/icon-1.png);
         left: 80px;
     }
