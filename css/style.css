@@ -451,4 +451,8 @@ img {
     .title {
         font-size: 26px;
     }
+    .number-one::after {
+        background-image: url(/icons/icon-1.png);
+        left: 80px;
+    }
 }
