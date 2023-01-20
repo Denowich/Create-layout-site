@@ -449,7 +449,7 @@ img {
 
 @media (max-width: 359px) {
     .title {
-        font-size: 26px;
+        font-size: 24px;
     }
     .number {
         top: 30px;
