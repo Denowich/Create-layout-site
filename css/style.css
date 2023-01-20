@@ -414,3 +414,35 @@ img {
         font-size: 45px;
     }
 }
+
+@media (max-width: 376px) {
+    .nav {
+        display: block;
+        margin: 20px;
+    }
+    .nav>li:first-child {
+        padding-left: 45px;
+    }
+    .title {
+        font-size: 28px;
+        padding-left: 12px;
+    }
+    .btn {
+        margin-top: 70px;
+        margin-bottom: -64px;
+        margin-left: 80px;
+    }
+    .h2 {
+        margin-top: -40px;
+        margin-left: 10px;
+    }
+    .menu {
+        display: block;
+        padding-left: 45px;
+    }
+    .btn-start {
+        font-size: 16px;
+        background-size: contain;
+        padding-top: 50px;
+    }
+}
