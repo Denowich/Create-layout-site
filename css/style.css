@@ -425,7 +425,7 @@ img {
     }
     .title {
         font-size: 28px;
-        padding-left: 12px;
+        padding-left: 8px;
     }
     .btn {
         margin-top: 70px;
@@ -443,6 +443,6 @@ img {
     .btn-start {
         font-size: 16px;
         background-size: contain;
-        padding-top: 50px;
+        padding-top: 30px;
     }
 }
