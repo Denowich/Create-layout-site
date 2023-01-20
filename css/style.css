@@ -461,10 +461,10 @@ img {
     }
     .number-two::after {
         background-image: url(/icons/icon-1.png);
-        left: 80px;
+        left: 100px;
     }
     .number-three::after {
         background-image: url(/icons/icon-1.png);
-        left: 80px;
+        left: 100px;
     }
 }
