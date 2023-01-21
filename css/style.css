@@ -265,7 +265,7 @@ img {
     font-weight: 900;
     position: relative;
     margin-bottom: 0;
-    margin-top: 20px;
+    margin-top: 60px;
     color: #282828;
 }
 .number::after {
@@ -277,16 +277,16 @@ img {
     background-image: url(/icons/icon-1.png);
     width: 126px;
     height: 71px;
-    left: 69px;
-    top: 25px;
+    left: 80px;
+    top: 30px;
     /* top: calc(50%-35px); */
 }
 .number-two::after {
     background-image: url(/icons/icon-1.png);
     width: 126px;
     height: 71px;
-    left: 69px;
-    top: 25px;
+    left: 100px;
+    top: 30px;
     /* top: calc(50%-35px); */
 
 }
@@ -294,8 +294,8 @@ img {
     background-image: url(/icons/icon-1.png);
     width: 126px;
     height: 71px;
-    left: 69px;
-    top: 25px;
+    left: 100px;
+    top: 30px;
     /* top: calc(50%-15px); */
 }
 .box-text {
@@ -410,8 +410,18 @@ img {
 }
 
 @media (max-width: 598px) {
+    .nav {
+        padding: 0;
+        margin-left: 90px;
+        font-size: 15px;
+    }
     .title {
-        font-size: 45px;
+        font-size: 29px;
+    }
+    .btn-start {
+        font-size: 20px;
+        background-size: contain;
+        padding-top: 30px;
     }
 }
 
@@ -425,7 +435,7 @@ img {
         padding-left: 45px;
     }
     .title {
-        font-size: 40px;
+        font-size: 10px;
         padding-left: 8px;
     }
     .btn {
