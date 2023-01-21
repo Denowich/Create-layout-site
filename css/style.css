@@ -265,7 +265,7 @@ img {
     font-weight: 900;
     position: relative;
     margin-bottom: 0;
-    margin-top: 0;
+    margin-top: 20px;
     color: #282828;
 }
 .number::after {
@@ -415,22 +415,23 @@ img {
     }
 }
 
-@media (max-width: 376px) {
+@media (max-width: 374px) {
     .nav {
         display: block;
         margin: 20px;
+        font-size: 180px;
     }
     .nav>li:first-child {
         padding-left: 45px;
     }
     .title {
-        font-size: 28px;
+        font-size: 40px;
         padding-left: 8px;
     }
     .btn {
         margin-top: 70px;
         margin-bottom: -64px;
-        margin-left: 80px;
+        margin-left: 280px;
     }
     .h2 {
         margin-top: -40px;
@@ -443,28 +444,6 @@ img {
     .btn-start {
         font-size: 16px;
         background-size: contain;
-        padding-top: 30px;
-    }
-}
-
-@media (max-width: 359px) {
-    .title {
-        font-size: 24px;
-    }
-    .number {
-        top: 30px;
-    }
-    
-    .number-one::after {
-        background-image: url(/icons/icon-1.png);
-        left: 80px;
-    }
-    .number-two::after {
-        background-image: url(/icons/icon-1.png);
-        left: 100px;
-    }
-    .number-three::after {
-        background-image: url(/icons/icon-1.png);
-        left: 100px;
+        padding-top: 60px;
     }
 }
