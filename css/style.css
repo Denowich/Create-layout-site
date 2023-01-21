@@ -425,23 +425,23 @@ img {
     }
 }
 
-@media (max-width: 374px) {
+@media (max-width: 376px) {
     .nav {
-        display: block;
+        padding: 0px;
         margin: 20px;
-        font-size: 180px;
+        font-size: 12px;
     }
     .nav>li:first-child {
         padding-left: 45px;
     }
     .title {
-        font-size: 10px;
+        font-size: 29px;
         padding-left: 8px;
     }
     .btn {
         margin-top: 70px;
         margin-bottom: -64px;
-        margin-left: 280px;
+        margin-left: 80px;
     }
     .h2 {
         margin-top: -40px;
@@ -452,8 +452,8 @@ img {
         padding-left: 45px;
     }
     .btn-start {
-        font-size: 16px;
+        font-size: 18px;
         background-size: contain;
-        padding-top: 60px;
+        padding-top: 30px;
     }
 }
