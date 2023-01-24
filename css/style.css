@@ -167,7 +167,7 @@ img {
     position: relative;
     display: inline-block;
     padding-right: 130px;
-    padding-left: 65px;
+    padding-left: 120px;
     margin-bottom: 40px;
 }
 .h2::before, .h2::after {
@@ -182,7 +182,7 @@ img {
     top: 5px;
 }
 .h2::before {
-    left: 0;
+    left: 55px;
 }
 .h2::after {
     right: 0;
@@ -327,7 +327,8 @@ img {
     background-repeat: no-repeat;
     /* background-position: center center; */
     text-decoration: none;
-    padding: 70px 50px;
+    padding: 70px 140px;
+    
 }
 .btn-start:hover {
     opacity: 0.8;
